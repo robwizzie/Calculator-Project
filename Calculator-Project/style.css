@@ -1,0 +1,80 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: lightgray;
+    color: #000000;
+    font-size: 30px;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.numberLabel {
+    text-align: center;
+}
+
+.numberBoxes {
+    font-family: arial, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+input,
+label {
+    display: block;
+}
+
+.operationList {
+    display: flex;
+}
+
+input {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked+span {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+}
+
+.blueButton {
+    background-color: #007bff;
+    color: white;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+.grayButton {
+    background-color: #f4f4f4;
+    color: #000000;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+#lblResult {
+    color: #000000;
+    font-size: 40px;
+}
+
+.hideResult {
+    visibility: hidden;
+}
+
+.invalid-input {
+    background-color: #ef476f;
+}
